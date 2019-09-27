@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.qst.testrecyclerview.MainActivity">
+    <item
+            android:id="@+id/action_add_item"
+            android:title="添加新用户"/>
+    <item
+            android:id="@+id/Exit"
+            android:orderInCategory="100"
+            android:title="退出"
+    />
+    <item android:title="我的信息" android:id="@+id/Item"/>
+    <item android:title="修改密码" android:id="@+id/action_settings"/>
+</menu>
